@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Regression1(failed)">
+    <classes>
+      <class name="com.testScripts.Tc_LoginLinks">
+        <methods>
+          <include name="linksOnLoginPage"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LoginLinks -->
+      <class name="com.testScripts.Tc_2_LoginTest2">
+        <methods>
+          <include name="invalidData"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_2_LoginTest2 -->
+      <class name="com.testScripts.Tc_11_ProjectPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="projectPage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_11_ProjectPage -->
+      <class name="com.testScripts.Tc_8_PrimeContractorPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="primeContractorPageObj"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_8_PrimeContractorPage -->
+      <class name="com.testScripts.Tc_12_ManageCORPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="manageCORPage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_12_ManageCORPage -->
+      <class name="com.testScripts.Tc_PortalHiScheduling">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="portalHiScheduling"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_PortalHiScheduling -->
+      <class name="com.testScripts.Tc_ManageUserPage_2">
+        <methods>
+          <include name="addUserFunction"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_ManageUserPage_2 -->
+      <class name="com.testScripts.Tc_3_HomepageHeader">
+        <methods>
+          <include name="teraDown"/>
+          <include name="Link1"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_3_HomepageHeader -->
+      <class name="com.testScripts.Tc_LinksTaskOrderPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="links"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LinksTaskOrderPage -->
+      <class name="com.testScripts.Tc_ManageUserPage_4">
+        <methods>
+          <include name="addUserFunction"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_ManageUserPage_4 -->
+      <class name="com.testScripts.Tc_LinksManageUserEditUserPage">
+        <methods>
+          <include name="links"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LinksManageUserEditUserPage -->
+      <class name="com.testScripts.Tc_10_ContractNumberPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="contractNumberPage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_10_ContractNumberPage -->
+      <class name="com.testScripts.Tc_PortalMDIS">
+        <methods>
+          <include name="portalMDIS"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_PortalMDIS -->
+      <class name="com.testScripts.Tc_ManageUserPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="manageUserFunctions"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_ManageUserPage -->
+      <class name="com.testScripts.Tc_PortalTEAMKONIAGTravel">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="portalTEAMKONIAG"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_PortalTEAMKONIAGTravel -->
+      <class name="com.testScripts.Tc_ManageUserFunction">
+        <methods>
+          <include name="showEntries"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_ManageUserFunction -->
+      <class name="com.testScripts.Tc_9_OrganizationPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="taskOrderFunctions"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_9_OrganizationPage -->
+      <class name="com.testScripts.Tc_PortalGDS">
+        <methods>
+          <include name="teraDown"/>
+          <include name="portalGDS"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_PortalGDS -->
+      <class name="com.testScripts.Tc_ManageUserDeletebtn">
+        <methods>
+          <include name="teraDown"/>
+          <include name="deleteAddUserFunction"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_ManageUserDeletebtn -->
+      <class name="com.testScripts.Tc_7_TaskOrderForm">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="taskOrderFunctions"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_7_TaskOrderForm -->
+      <class name="com.testScripts.Tc_LinksManageUserPermissionPage">
+        <methods>
+          <include name="links"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LinksManageUserPermissionPage -->
+      <class name="com.testScripts.Tc_PortalCSW">
+        <methods>
+          <include name="teraDown"/>
+          <include name="portalCSW"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_PortalCSW -->
+      <class name="com.testScripts.Tc_HomePageManageUser">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="homePage"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_HomePageManageUser -->
+      <class name="com.testScripts.Tc_6_AddUserFunctions">
+        <methods>
+          <include name="teraDown"/>
+          <include name="addUserPage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_6_AddUserFunctions -->
+      <class name="com.testScripts.Tc_4_ManageUserPageFunctions">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="ManageUserPageFunctions"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_4_ManageUserPageFunctions -->
+      <class name="com.testScripts.Tc_LogoutTest">
+        <methods>
+          <include name="cancelButton"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LogoutTest -->
+      <class name="com.testScripts.Tc_PortalPIlsTeam">
+        <methods>
+          <include name="teraDown"/>
+          <include name="portalPilsTeam"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_PortalPIlsTeam -->
+      <class name="com.testScripts.Tc_1_LoginPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="loginButton"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_1_LoginPage -->
+      <class name="com.testScripts.Tc_LinksMangeUserPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="links"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LinksMangeUserPage -->
+      <class name="com.testScripts.Tc_LinksAddUserPage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+          <include name="links"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LinksAddUserPage -->
+      <class name="com.testScripts.Tc_ManageUserPage_3">
+        <methods>
+          <include name="addUserFunction"/>
+          <include name="teraDown"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_ManageUserPage_3 -->
+      <class name="com.testScripts.Tc_LinksHomePage">
+        <methods>
+          <include name="teraDown"/>
+          <include name="linksOnHomePage"/>
+          <include name="openApplication"/>
+        </methods>
+      </class> <!-- com.testScripts.Tc_LinksHomePage -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

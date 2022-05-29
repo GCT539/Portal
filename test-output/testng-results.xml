@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-26T19:38:36 IST" name="Default suite" finished-at="2022-05-26T19:39:15 IST" duration-ms="38979">
+    <groups>
+    </groups>
+    <test started-at="2022-05-26T19:38:36 IST" name="Default test" finished-at="2022-05-26T19:39:15 IST" duration-ms="38979">
+      <class name="com.testScripts.Tc_DeleteFunction">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.testScripts.Tc_DeleteFunction@4efc180e]" started-at="2022-05-26T19:38:36 IST" name="openApplication" finished-at="2022-05-26T19:38:39 IST" duration-ms="3517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="deleteFunction()[pri:0, instance:com.testScripts.Tc_DeleteFunction@4efc180e]" started-at="2022-05-26T19:38:39 IST" name="deleteFunction" finished-at="2022-05-26T19:39:14 IST" duration-ms="34592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteFunction -->
+        <test-method is-config="true" signature="teraDown()[pri:0, instance:com.testScripts.Tc_DeleteFunction@4efc180e]" started-at="2022-05-26T19:39:14 IST" name="teraDown" finished-at="2022-05-26T19:39:15 IST" duration-ms="831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teraDown -->
+      </class> <!-- com.testScripts.Tc_DeleteFunction -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
